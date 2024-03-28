@@ -1,0 +1,68 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.button-create {
+    margin:5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: greenyellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button-edit {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fec820;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button-delete {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ef2525d5;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button-details {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1296f9e6;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button-search {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b200ff94;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
